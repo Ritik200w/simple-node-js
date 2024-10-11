@@ -26,10 +26,11 @@ Make sure you have the following installed before running the project:
 
 Installation 💻
 
-    Clone the repository:
+    Clone the repository: git clone https://github.com/Ritik200w/simple-node-js.git
+    cd simple-node-app
 
-git clone https://github.com/<your-username>/simple-node-app.git
-cd simple-node-app
+
+
 
 Install dependencies:
 
