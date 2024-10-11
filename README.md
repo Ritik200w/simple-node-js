@@ -28,14 +28,11 @@ Installation 💻
 
     Clone the repository:
 
-    bash
-
 git clone https://github.com/<your-username>/simple-node-app.git
 cd simple-node-app
 
 Install dependencies:
 
-bash
 
     npm install
 
@@ -43,7 +40,6 @@ Running the Application 🏃‍♂️
 
 To start the application locally without Docker, use the following command:
 
-bash
 
 node app.js
 
@@ -53,15 +49,12 @@ Step 1: Build Docker Image
 
 To create a Docker image for the app, run the following command:
 
-bash
-
 docker build -t simple-node-app .
 
 Step 2: Run Docker Container
 
 Run the application inside a Docker container:
 
-bash
 
 docker run -p 3000:3000 simple-node-app
 
@@ -70,7 +63,6 @@ Accessing the Application 🌐
 
 After running the Docker container, open your browser and visit:
 
-bash
 
 http://localhost:3000
 
